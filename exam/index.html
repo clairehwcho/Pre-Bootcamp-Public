@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Succulent Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="container">
+
+        <!-- Navigation Bar-->
+        <div class="navBarTop">
+            <div class="logo">
+                <img class="logoimg" src="images/assets/leaf.png" alt="logo">
+                <h1>EasyBay</h1>
+            </div>
+            <div class="search">
+                <input class="searchbar" type="search" placeholder="Search for anything">
+                <button class=searchbtn type="submit"><img id="searchbtnimg" src="images/assets/search-dark.png"
+                        alt="search button"></button>
+            </div>
+            <button class="signinbtn"><a href="">Sign In</a></button></a>
+            <button class="cartbtn" onclick="cartalert()"><img id="cartbtnimg" src="images/assets/cart-dark.png"
+                    alt="cart button"></button>
+
+        </div>
+
+        <div class="navBarBottom">
+            <ul class="menu">
+                <li>Aeonium</li>
+                <li>Andormischus</li>
+                <li>Agave</li>
+                <li>Aloe</li>
+                <li>Anacampseros</li>
+                <li>Aristaloe</li>
+                <li>More...</li>
+            </ul>
+        </div>
+
+        <!--Main Content -->
+        <!-- First row -->
+        <div class="mainContainer1">
+            <p>Your Source for Serious Succulent Specialties</p>
+        </div>
+
+        <!-- Second row -->
+        <div class="mainContainer2">
+            <div class="leftboxes">
+                <div class="leftbox1">
+                    <div class="leftbox1Top">
+                        <p>Discover succ-</p>
+                        <p>ulent varieties</p>
+                        <p>one pot or rack</p>
+                        <p>at a time!</p>
+                    </div>
+                    <div class="leftbox1Bottom">
+                        <p><a href="">Discover</a></p>
+                        <a href=""><img src="images/assets/arrow-light.png" alt="arrow">
+                        </a>
+                    </div>
+                </div>
+                <div class="leftbox2">
+                    <img id="succulents" onmouseover="over(this)" onmouseout="out(this)"
+                        src="images/assets/succulents-1.jpg" alt="succulents1">
+                </div>
+            </div>
+
+            <div class="rightboxes">
+                <div class="rightbox1">
+                    <img id="sedum" src="images/assets/sedum-s.jpg" alt="sedum">
+                </div>
+                <div class="rightbox2">
+                    <p><a href="">Soothing Aloe</a></p>
+                    <a href=""><img src="images/assets/arrow-light.png" alt="arrow">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Third row -->
+        <div class="mainContainer3">
+            <div class="species">
+                <img src="images/assets/aeonium-s.jpg" alt="aeonium">
+                <p>Aeonium</p>
+            </div>
+            <div class="species">
+                <img src="images/assets/aloe-s.jpg" alt="aloe">
+                <p>Aloe</p>
+            </div>
+            <div class="species">
+                <img src="images/assets/cactus-s.jpg" alt="cactus">
+                <p>Cactus</p>
+            </div>
+            <div class="species">
+                <img src="images/assets/echeveria-s.jpg" alt="echeveria">
+                <p>Echeveria</p>
+            </div>
+            <div class="species">
+                <img src="images/assets/sedum-s.jpg" alt="sedum">
+                <p>Sedum</p>
+            </div>
+            <div class="species">
+                <img src="images/assets/sempervivum-s.jpg" alt="Sempervivium">
+                <p>Sempervivium</p>
+            </div>
+        </div>
+
+        <!-- Cookie box -->
+        <div class="cookieContainer">
+            <img src="images/assets/alert-dark.png" alt="alert">
+            <P>This site makes use of third-party cookies, by clicking "I accept" you agree to the terms outlined in our
+                <a href="">cookie policy</a>.
+            </P>
+            <button onclick="remove()">I Accept</button>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
