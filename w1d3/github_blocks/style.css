@@ -1,0 +1,44 @@
+img {
+    width: 100px;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: rgb(69, 72, 85);
+    text-align: center;
+}
+
+.firstContainer {
+    background-color: #56C2F9;
+    ;
+    justify-content: space-between;
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+}
+
+.secondContainer {
+    background-color: #D69EAA;
+    justify-content: space-around;
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+}
+
+.thirdContainer {
+    background-color: white;
+    justify-content: space-between;
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
+.forthContainer {
+    text-align: center;
+}
+
+.forthContainer span {
+    font-family: sans-serif;
+    color: darkcyan;
+}

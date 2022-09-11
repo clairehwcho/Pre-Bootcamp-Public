@@ -1,0 +1,46 @@
+* {
+    font-family: roboto;
+    color: white;
+}
+
+.nav {
+    height: 50px;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title {
+    margin-left: 20px;
+}
+
+.nav-title {
+    color: white;
+}
+
+.nav-links {
+    color: white;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+li {
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.btn {
+    height: 25px;
+    display: flex-end;
+    background-color: deepskyblue;
+    border: 2px solid #000;
+    box-shadow: 2px 2px black;
+    margin-right: 20px;
+
+}
