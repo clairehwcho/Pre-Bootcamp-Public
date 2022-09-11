@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.navbar {
+    height: 70px;
+    background-color: black;
+    display: flex;
+}
+
+.navLeft {
+    height: 70px;
+    flex-grow: 2;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navRight {
+    height: 70px;
+    flex-grow: 1;
+}
+
+.navRight button {
+    position: relative;
+    height: 25px;
+    width: 80px;
+    top: 25px;
+    left: 80px;
+    background-color: #17A2B8;
+    color: white;
+    border: none;
+}
+
+.mainContent {
+    width: 100vw;
+    height: 100vh;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+}
+
+.userCard {
+    height: 250px;
+    width: 300px;
+    background-color: white;
+    border: 2px solid gray;
+    position: relative;
+    top: 30px;
+    left: 200px;
+}
+
+.userCardBanner {
+    height: 60px;
+    width: 300px;
+    background-color: #17A2B8;
+}
+
+.profilepic {
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    position: absolute;
+    top: 31px;
+    left: 15px;
+}
+
+.userCardContent {
+    height: 145px;
+    width: 270px;
+    background-color: white;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.userCardContent img {
+    width: 10px;
+}
+
+.userCardContent p {
+    font-size: small;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.userCardContent a {
+    font-size: smaller;
+    color: #17A2B8;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+.requestBox {
+    height: 130px;
+    width: 200px;
+    background-color: white;
+    border: 2px solid gray;
+    position: relative;
+    top: 30px;
+    left: 220px;
+}
+
+.reqBoxBanner {
+    height: 50px;
+    width: 200px;
+    background-color: #333333;
+    font-size: small;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reqBoxBanner button {
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.reqBoxContent {
+    height: 60px;
+    width: 180px;
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    font-size: small;
+    line-height: 2.5;
+}
+
+.reqBoxContent .profilepic-2 {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #333333;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.reqBoxContent .accept {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-left: 40px;
+}
+
+.reqBoxContent .close {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.educationBox {
+    height: 150px;
+    width: 300px;
+    background-color: white;
+    border: 2px solid gray;
+    position: relative;
+    top: 310px;
+    right: 308px;
+}
+
+.educBoxBanner {
+    height: 40px;
+    width: 290px;
+    background-color: #333333;
+    color: white;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    padding-left: 10px
+}
+
+.educBoxContent {
+    height: 90px;
+    width: 280px;
+    background-color: white;
+    padding: 10px;
+    font-size: small;
+    line-height: 2;
+}
+
+.educBoxContent span {
+    color: gray;
+}
+
+.connectionsBox {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border: 2px solid gray;
+    position: relative;
+    top: 185px;
+    right: 288px;
+}
+
+.connectBoxBanner {
+    height: 50px;
+    width: 200px;
+    background-color: #333333;
+    font-size: small;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.connectBoxBanner button {
+    width: 50px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.connectBoxContent {
+    height: 130px;
+    width: 180px;
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    font-size: small;
+    line-height: 2.5;
+}
+
+.connectBoxContent .profilepic-2 {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #333333;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.connectBoxContent .accept {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-left: 40px;
+}
+
+.connectBoxContent .close {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.connectBoxLink {
+    height: 40px;
+    width: 185px;
+    background-color: white;
+    border: 2px solid gray;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-size: small;
+    position: relative;
+    right: 2px;
+}
+
+.connectBoxLink a {
+    color: #17A2B8;
+    text-decoration: none;
+    text-decoration: underline;
+}

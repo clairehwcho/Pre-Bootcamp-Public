@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    border: 2px solid gray;
+}
+
+.container-1 {
+    background-color: darkcyan;
+    height: 80px;
+}
+
+.container-2 {
+    top: 100px;
+    position: absolute;
+}
+
+.userCircle {
+    width: 60px;
+    margin-left: 30px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.container-3 {
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    line-height: 1.5;
+    align-items: center;
+}
+
+.mapmarker {
+    width: 10px;
+}
+
+.gear {
+    width: 15px;
+}
+
+span {
+    color: dodgerblue;
+    font-weight: 600;
+    border-bottom: 1px solid dodgerblue;
+}
+
+a {
+    text-decoration: none;
+}
