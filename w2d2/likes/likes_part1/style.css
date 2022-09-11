@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+.container {
+    width: 500px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 50px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.top button {
+    width: 70px;
+    height: 30px;
+    background-color: #FFD966;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+}
+
+.bottom {
+    text-align: center;
+}

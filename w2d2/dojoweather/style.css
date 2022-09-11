@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+.navbar {
+    width: 100vw;
+    height: 70px;
+    background-color: #9CBBF8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftBar {
+    width: 325px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.rightBar {
+    width: 325px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rightBar h3 {
+    cursor: pointer;
+}
+
+.mainContainer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topContainer {
+    width: 700px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.topLeft {
+    width: 325px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.topRight {
+    width: 325px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.middleContainer {
+    background-color: white;
+    width: 700px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.middleContainer img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.high::after, .low::after {
+    content: "°";
+}
+
+.high {
+    color: #CF2A27;
+    font-weight: bold;
+}
+
+.low {
+    color: #2B78E4;
+    font-weight: bold;
+}
+
+.box1 {
+    background-color: lightgray;
+    width: 150px;
+    height: 260px;
+}
+
+.box1top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 3.5;
+}
+
+.box1bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box2 {
+    background-color: lightgray;
+    width: 150px;
+    height: 260px;
+}
+
+.box2top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 3.5;
+}
+
+.box2bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box3 {
+    background-color: lightgray;
+    width: 150px;
+    height: 260px;
+}
+
+.box3top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 3.5;
+}
+
+.box3bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: cesnter;
+}
+
+.box4 {
+    background-color: lightgray;
+    width: 150px;
+    height: 260px;
+}
+
+.box4top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 3.5;
+}
+
+.box4bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottomContainer {
+    background-color: white;
+    width: 700px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 450px;
+}
+
+.bottomLeft {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomCenter {
+    width: 500px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomCenter p {
+    font-size: small;
+}
+
+.bottomCenter a {
+    text-decoration: none;
+    text-decoration: underline;
+    color: #2B78E4;
+}
+
+.bottomRight {
+    width: 100px;
+    display: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomRight button {
+    width: 80px;
+    height: 30px;
+    background-color: #9CBBF8;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    cursor: pointer;
+}
+
+.bottomRight button:active {
+    transform: translate3d(1px, 1px, 1px);
+}
